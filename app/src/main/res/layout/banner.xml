@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.myapp.myapplication.MainActivity"
+android:id="@+id/banner">
+
+    <TextView
+        android:id="@+id/scroller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="This is a text view with scrolling text as it is made to be so..."
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:padding="2dp"
+        android:scrollHorizontally="true"/>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/scroller"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="2dp" />
+
+</RelativeLayout>
