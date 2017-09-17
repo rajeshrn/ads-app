@@ -1,0 +1,14 @@
+{"response":
+[{"startDateTime":"2017-08-26 19:11:14",
+  "endDateTime":"2017-08-26 19:11:14",
+  "delay":4,"unit":"MIN",
+  "campaignContents":[{"ImageDetails":"https://www.signmedia.ca/wp-content/uploads/2014/09/CNL_CBCnewsexpress_Pearson.jpg",
+    "unqiqueIdentifier":"khdsf863rg87eft"}]},
+  {"startDateTime":"2017-08-31 00:51:09",
+    "endDateTime":"2017-08-31 00:51:09",
+    "delay":4,"unit":"MIN",
+    "campaignContents":[{"ImageDetails":"https://i.ytimg.com/vi/zNuOwHmxW3M/maxresdefault.jpg",
+      "unqiqueIdentifier":"ve3f3435eerfert"}]
+  }
+]
+}
